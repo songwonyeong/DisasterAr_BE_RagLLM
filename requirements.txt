@@ -13,5 +13,7 @@ pypdf==5.1.0
 # ✅ NumPy 2.x로 인한 호환 이슈 방지
 numpy<2
 
+langchain-groq==0.3.0
+
 # ✅ torch.load 관련 이슈 회피를 위해 2.6 이상
 # CPU 전용 torch는 아래 "설치 커맨드"로 깔아주는 게 가장 깔끔함
