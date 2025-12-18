@@ -1,0 +1,17 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+langchain==0.3.12
+langchain-community==0.3.12
+sentence-transformers==3.3.1
+transformers==4.46.3
+huggingface_hub==0.26.2
+
+faiss-cpu==1.9.0.post1
+pypdf==5.1.0
+
+# ✅ NumPy 2.x로 인한 호환 이슈 방지
+numpy<2
+
+# ✅ torch.load 관련 이슈 회피를 위해 2.6 이상
+# CPU 전용 torch는 아래 "설치 커맨드"로 깔아주는 게 가장 깔끔함
